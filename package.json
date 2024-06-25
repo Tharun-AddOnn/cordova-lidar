@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "cordova":{
+    "id": "com.cordova.lidar",
+    "platforms": [
+      "ios"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "github.com/Tharun-AddOnn/cordova-lidar"
@@ -13,7 +19,8 @@
   "keywords": [
     "cordova",
     "lidar",
-    "plugin"
+    "plugin",
+    "cordova-lidar"
   ],
   "author": "Tharun",
   "license": "MIT"
